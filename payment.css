@@ -1,0 +1,91 @@
+.payment-gateway {
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .payment-gateway__header {
+    text-align: center;
+  }
+  
+  .payment-gateway__body {
+    margin-top: 20px;
+  }
+  
+  .payment-gateway__body input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .payment-gateway__body label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-group--exp {
+    width: 48%;
+  }
+  
+  .form-group--cvc {
+    width: 48%;
+  }
+  
+  .payment-gateway__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .payment-gateway__footer span {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .payment-gateway__footer img {
+    height: 38px;
+  }
+  
+  .payment-gateway__status {
+    margin-top: 20px;
+    text-align: center;
+  }
+ 
+
+  .payment-gateway__status-text {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  }
+
+  .payment-gateway__status-text--success {
+  background-color: #28a745;
+  }
+
+  .payment-gateway__status-text--error {
+  background-color: #ff0000;
+  }
+
+.payment-gateway__status-text--pending {
+background-color: #ffc107;
+}
+
+.payment-gateway__status-text--hidden {
+display: none;
+}
